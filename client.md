@@ -1,7 +1,7 @@
 # Client Management – Implementation Plan
 
 > Service: `bcd-japan-tenant-policy-service` (NestJS 11)
-> Architecture: **DDD + Clean Architecture** (modular monolith, one module per bounded context)
+> Architecture: **DDD + Clean Architecture** 
 > Stack decisions (confirmed): **TypeORM + PostgreSQL**, domain events defined but **broker deferred**,
 > scope = **Onboarding + Registry + Approval** only, designed so profile editing /
 > relationships / authority can be added later without restructuring.
